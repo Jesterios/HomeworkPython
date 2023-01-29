@@ -7,7 +7,7 @@ def write_file(name, st):
         data.write(st)                          # random number 0 - 100
 
         def rnd():
-    return random.randint(0, 101)
+    return random.randint(0, 100)
 
     def create_mn(k):
     lst = [rnd() for i in range(k+1)]
